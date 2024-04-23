@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/request.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/request.scss" rel="stylesheet" type="text/css">
+    <title>Service Request Form</title>
+</style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="images/logo.png" alt="Dust to Stone Logo">
+            <h1>Request a Service</h1>
+        </header>
+        <nav>
+            <h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="request.html">Service Request Form</a></li>
+            </ul>
+        </h2>
+        </nav>
+        <div id="column">
+            <h1>Service Request Form</h1>
+            <form action="#">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+                <legend>Select Your Service(s)</legend>
+                <section style="display: inline">
+                <input type="checkbox" id="service1" name="service1" value="apartments">
+                <label for="service1"  id="check">Apartments</label>
+                </section>
+                <section style="display: inline">
+                <input type="checkbox" id="service2" name="service2" value="modern">
+                <label for="service2"  id="check">Modern Buildings</label>
+                </section>
+                <section style="display: inline">
+                <input type="checkbox" id="service3" name="service3" value="houses">
+                <label for="service3"  id="check">Houses</label>
+                </section>
+                <section style="display: inline">
+                <input type="checkbox" id="service4" name="service4" value="greenhouses">
+                <label for="service4"  id="check">Greenhouses</label>
+                </section>
+                <section style="display: inline">
+                <input type="checkbox" id="service5" name="service5" value="pandg">
+                <label for="service5"  id="check">Ponds and Gazebos</label>
+                </section>
+                <section style="display: inline">
+                <input type="checkbox" id="service6" name="service6" value="paths">
+                <label for="service6" id="check">Paths</label><br>
+            </section>
+                <label for="comments">Comments:</label>
+                <input type="text" id="comments" name="comments">
+                <br>
+                <div id="inline">
+                <button type="reset" id="reset">Reset</button>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            </form>
+        </div>
+        <footer>
+            <h1>
+                Dust to Stone Construction Co.
+            </h1>
+            <div id="footer">
+                <div>
+                <img src="images/instagram.png" alt="instagram-logo" style="width: 50px; height: 50px;">
+                <img src="images/fb.png" alt="facebook-logo"  style="width: 50px; height: 50px;">
+            </div>
+            <br>
+                <div>
+            <p>
+                <strong>Hours:</strong><br>
+                9am to 5pm Monday-Friday<br>
+                Closed Sunday
+            </p>
+        </div>
+        <br>
+        <div>
+            <p>
+                <strong>Location:</strong><br>
+                Des Moines, Iowa
+            </p>
+        </div>
+        <br>
+        <div>
+            <h4>
+                <a href="privacy.html">Privacy Policy</a>
+            </h4>
+        </div>
+        </div>
+        </footer>
+        </div>
+</body>
+</html>
